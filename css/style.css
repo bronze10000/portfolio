@@ -92,7 +92,11 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #E75926;
+/*	background: #E75926;*/
+    
+    	background: #328cc1;
+
+    
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -102,7 +106,7 @@ hr {
 	padding: 0;
 	border-bottom: 0;
 	letter-spacing: 1px;
-	background: #333;
+	background: #1d2731;
 	text-transform: uppercase;
 }
 .navbar-custom .navbar-brand {
@@ -162,7 +166,8 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+	background: url(../img/backgroundCode2.jpg) no-repeat center center fixed;
+/*    filter: blur(5px);*/
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -180,8 +185,11 @@ hr {
 	text-transform: uppercase;
 }
 #intro .intro-body .brand-heading {
-	color: #E75926;
-	text-shadow: 0 4px #a13e1a;
+/*	color: #E75926;*/
+	color: #328cc1;
+
+/*    text-shadow: 0 4px #a13e1a;*/
+    text-shadow: 0 4px #0b3c5d;
 }
 #intro .intro-body .intro-text {
 	font-size: 18px;
@@ -197,12 +205,15 @@ hr {
 	letter-spacing: 1px;
 	margin-bottom: 100px;
 	color: rgba(255,255,255,0.9);
+    font-weight: 900;
 }
 }
 .btn-default {
 	color: #f6f6f6;
-	background: #cf5022;
-	border: 0;
+/*	background: #cf5022; */
+	background: #0b3c5d;
+
+    border: 0;
 	padding: 12px 24px;
 	margin: 0 8px;
 	font-size: 18px;
@@ -210,7 +221,9 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #f6f6f6;
-	background-color: #a13e1a;
+/*	background-color: #a13e1a;*/
+	background-color: #328cc1;
+
 }
 .section-title.center {
 	padding: 30px 0;
@@ -282,7 +295,9 @@ hr {
 }
 #services i.fa {
 	font-size: 36px;
-	color: #E75926;
+/*	color: #E75926;*/
+    	color: #D9B310;
+
 	transition: all 0.5s;
 }
 /* Gallery Section */
@@ -309,13 +324,13 @@ ol.type li a {
 }
 ol.type li a.active {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid #0b3c5d;
+	background: #0b3c5d;
 }
 ol.type li a:hover {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid #0b3c5d;
+	background: #0b3c5d;
 }
 .isotope-item {
 	z-index: 2
@@ -483,7 +498,7 @@ img.img-thumbnail.team-img {
 }
 #contact i.fa {
 	font-size: 22px;
-	color: #e75926;
+	color: #0b3c5d;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -520,7 +535,9 @@ label {
 	box-shadow: transparent;
 }
 #contact .btn-default {
-	background: #cf5022;
+/*	background: #cf5022;*/
+    background: #0b3c5d;
+
 	border: 0;
 	border-radius: 4px;
 	padding: 10px 20px;
@@ -530,7 +547,9 @@ label {
 }
 #contact .btn-default:hover, #contact .btn-default:focus {
 	color: #f6f6f6;
-	background: #a13e1a;
+/*	background: #a13e1a;*/
+    	background: #328cc1;
+
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -552,12 +571,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact .social i.fa {
 	font-size: 24px;
 	padding-top: 8px;
-	color: #cf5022;
+	color: #0b3c5d;
 	border-radius: 4px;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #a13e1a;
+	color: #328cc1;
 }
 /* Footer Section*/
 #footer {
